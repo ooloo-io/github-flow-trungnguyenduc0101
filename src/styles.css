@@ -20,7 +20,7 @@ body {
 }
 
 .content {
-  border-bottom: 1px solid black;
+  margin: auto;
   max-width: 100%;
   margin: auto;
   min-height: calc(100vh - 140px);
@@ -36,4 +36,8 @@ body {
   justify-content: center;
   align-items: center;
   border: 1px solid black;
+}
+
+.section:first-child {
+  margin-top: 0;
 }
